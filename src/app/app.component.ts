@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
+import { TrainTicketComponent } from './train-ticket/train-ticket.component';
 
 @Component({
-    selector: 'app-root',
-    template: `
+  imports: [TrainTicketComponent],
+  selector: 'app-root',
+  template: `
     <train-ticket></train-ticket>
   `,
-    styles: [],
-    standalone: false
+  styles: []
 })
 export class AppComponent {
   title = 'tests-trainticket-angular';
