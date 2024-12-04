@@ -4,7 +4,8 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
     selector: 'train-ticket',
     templateUrl: './train-ticket.component.html',
     changeDetection: ChangeDetectionStrategy.OnPush,
-    styleUrls: ['./train-ticket.component.scss']
+    styleUrls: ['./train-ticket.component.scss'],
+    standalone: false
 })
 export class TrainTicketComponent {
 }
